@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source+Code+Pro', sans-serif;
+    font-family: 'Dosis', sans-serif;
 }
 
 body {
-    background-color: #413F42;
+    background-color: #F0EEED;
 }
 
 .title {
-    color: #FFFFFF;
+    color: #609EA2;
     font-size: 100px;
     font-weight: 700;
     display: flex;
@@ -32,20 +32,20 @@ body {
 .container {
     box-shadow: 8px 10px 5px #0003;
     max-width: 800px;
-    background-color: white;
-    border-radius: 5px;
-    padding: 5px;
+    background-color: #ededed;
+    padding: 2px;
     margin: auto 5px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
 }
   
 .accordion_item {
     border-radius: 5px;
+    background-color: #F0EEED;
 }
   
 .accordion_item:hover {
@@ -53,24 +53,24 @@ body {
 }
 
 .accordion_header {
-    background-color: #000000;
+    background-color: #609EA2;
     color: #FFFFFF;
     padding: 10px;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .accordion_content {
-    background-color: #000000;
-    color:#FFFFFF;
+    background-color: #F0EEED;
+    color:#609EA2;
     margin-left: 50px;
     margin-right: 15px;
     overflow: hidden;
     height: 0;
     transition: all .5s ease;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .active {
